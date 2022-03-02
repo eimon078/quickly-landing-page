@@ -87,7 +87,54 @@ Start Footer Section
 ===================================
 */
 
+footer{
+background-color: var(--dark-color);
+}
+
 .footer-content{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: 50px 0;
+}
+
+.address{
+ color: var(--secondary-light-color);
+}
+.address h3{
+    font-family: "Plus Jakarta Sans 700";
+    color: #FFFFFF;
+    font-size: var(--size-xl);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.row a{
+    color: var(--secondary-light-color);
+    font-family: "Plus Jakarta Sans 400";
+}
+
+.row div h5{
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-md);
+
+}
+
+hr{
+    opacity: 0.2;
+    border: 1px solid var(--secondary-green-color);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: var(--size-sm);
+    color: var(--secondary-light-color);
+    padding: 16px 0;
     
 }
 
