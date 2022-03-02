@@ -96,6 +96,54 @@ End Reuseable Conponent Section
 
 /* 
 ===================================
+Start Section 
+===================================
+*/
+
+.services-2{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 59px;
+    padding-bottom: 125px;
+}
+
+.services-2 .service-cart{
+    width: 25%
+}
+
+.service-2-icon{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: var(--secondary-light-color);
+}
+
+.service-2-icon img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pt{
+    padding-top: 30px;
+}
+.name-gap{
+    padding-top: 10px;
+}
+
+/* 
+===================================
+End Section
+===================================
+*/
+
+/* 
+===================================
 Start Customer Review Section 
 ===================================
 */

@@ -1,8 +1,12 @@
+
 @media (max-width:1199px){
     .container{
         max-width: 960px;
     }
 }
+
+
+
 @media (max-width:991px){
     .container{
         max-width: 720px;
@@ -11,16 +15,26 @@
     .info{
         grid-template-columns: repeat(2 , 1fr);
     }
+
     .customer-bottom .cart{
         width: calc(50% - 10px);
         margin: 10px 0;
     }
 
+    .services-2 .service-cart{
+        width: 33%;
+        margin: 10px 0;
+        padding: 0 3px;
+    }
+
 }
+
+
 @media (max-width:767px){
     .container{
         max-width: 540px;
     }
+
     .footer-content{
         grid-template-columns: repeat(1 , 1fr);
     }
@@ -28,24 +42,42 @@
     .info{
         grid-template-columns: repeat(3 , 1fr);
     }
+
     .customer-bottom .cart{
         width: calc(50% - 10px);
         margin: 10px 0;
     }
+
+    .services-2 .service-cart{
+        width: 50%;
+        margin: 10px 0;
+        padding: 0 3px;
+    }
 }
+
+
 @media (max-width:575px){
     .container{
         max-width: 100%;
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .footer-content{
         grid-template-columns: repeat(1 , 1fr);
     }
+
     .info{
         grid-template-columns: repeat(1 , 1fr);
     }
+
     .customer-bottom .cart{
         width: 100%;
+    }
+
+    .services-2 .service-cart{
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 3px;
     }
 }
