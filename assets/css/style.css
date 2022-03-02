@@ -83,16 +83,99 @@ Start Reuseable Conponent Section
     font-size: var(--size-md);
     padding: 16px 36px;
 }
+.section-title{
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-xl);
+    color: var(--dark-color);
+}
 /* 
 ===================================
 End Reuseable Conponent Section
 ===================================
 */
 
+/* 
+===================================
+Start Customer Review Section 
+===================================
+*/
+
+.customer-review{
+    background-color: #FAFAFA;
+}
+.customer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.customer-top .section-title{
+    margin-bottom: 16px;
+}
+
+.customer-top div{
+    padding-top: 71px;
+}
+.customer-top button{
+    margin-top: 22px;
+}
+
+.customer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customer-bottom .cart{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 33px 36px;
+    width: calc(33% - 10px);
+}
+
+.comment,
+.quote{
+    padding: 0 8px;
+}
+    
+.cart .comment{
+    font-size: var(--size-lg);
+}
+.cart .quote{
+    width: 31px;
+    height: 25px;
+    color: var(--primary-color);
+}
+
+.name{
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-md);
+}
+
+.job-title{
+    font-size: var(--size-sm);
+    color: var(--primary-color);
+}
+
+.cart .cart-footer{
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 
 /* 
 ===================================
-Start Section 
+End Customer Review Section
+===================================
+*/
+
+
+/* 
+===================================
+Start Bottom Banner Section 
 ===================================
 */
 
@@ -122,7 +205,7 @@ Start Section
 
 /* 
 ===================================
-End Section
+End Bottom Banner Section
 ===================================
 */
 
