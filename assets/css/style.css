@@ -1,0 +1,108 @@
+/* 
+===================================
+CSS Variable
+===================================
+*/
+:root{
+    --size-xl: 32px;
+    --size-lg: 24px;
+    --size-md: 18px;
+    --size-sm: 14px;
+    --primary-color: #20484F;
+    --secondary-light-color: #DCF2ED;
+    --secondary-green-color: #B8E4DA;
+    --dark-color: #072125;
+
+}
+
+
+/* 
+===================================
+Start Basic Setup
+===================================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans 400";
+    color: var(--dark-color);
+    line-height: 1.5;
+    overflow-x: hidden;
+
+}
+
+a,
+span,
+label{
+    display: inline-block;
+}
+
+input,
+button,
+textarea{
+    outline: 0;
+    border: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* 
+===================================
+End Basic Setup
+===================================
+*/
+
+
+
+/* 
+===================================
+Start Reuseable Conponent Section 
+===================================
+*/
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+/* 
+===================================
+End Reuseable Conponent Section
+===================================
+*/
+
+
+/* 
+===================================
+Start Footer Section 
+===================================
+*/
+
+.footer-content{
+    
+}
+
+/* 
+===================================
+End Footer Section
+===================================
+*/
+/* 
+===================================
+Start Section 
+===================================
+*/
+/* 
+===================================
+End Section
+===================================
+*/
