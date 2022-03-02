@@ -27,6 +27,11 @@
         padding: 0 3px;
     }
 
+    .help-services .help-cart{
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
 }
 
 
@@ -53,6 +58,12 @@
         margin: 10px 0;
         padding: 0 3px;
     }
+
+    .help-services .help-cart{
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+    
 }
 
 
@@ -79,5 +90,10 @@
         width: 100%;
         margin: 10px 0;
         padding: 0 3px;
+    }
+
+    .help-services .help-cart{
+        width: 100%;
+        
     }
 }
