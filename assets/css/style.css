@@ -36,6 +36,7 @@ body{
     color: var(--dark-color);
     line-height: 1.5;
     overflow-x: hidden;
+    background-color: #FFFFFF;;
 
 }
 
@@ -74,11 +75,57 @@ Start Reuseable Conponent Section
     max-width: 1170px;
     margin: auto;
 }
+
+.btn{
+    background: var(--primary-color);
+    border-radius: 8px;
+    color:#FFFFFF;
+    font-size: var(--size-md);
+    padding: 16px 36px;
+}
 /* 
 ===================================
 End Reuseable Conponent Section
 ===================================
 */
+
+
+/* 
+===================================
+Start Section 
+===================================
+*/
+
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0;
+    text-align: center;
+}
+.bottom-banner p {
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-md);
+    margin-bottom: 25px;
+}
+.bottom-banner h1 {
+    font-family: "Plus Jakarta Sans 700";
+    font-size: 50px;
+    color: var(--dark-color);
+    margin-bottom: 54px;
+}
+.bottom-banner button {
+    font-size: var(--size-md);
+    color: #FFFFFF;
+}
+
+/* 
+===================================
+End Section
+===================================
+*/
+
 
 
 /* 
@@ -143,6 +190,7 @@ hr{
 End Footer Section
 ===================================
 */
+
 /* 
 ===================================
 Start Section 
