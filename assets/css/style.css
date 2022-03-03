@@ -1,3 +1,4 @@
+
 /* 
 ===================================
 CSS Variable
@@ -93,6 +94,61 @@ Start Reuseable Conponent Section
 End Reuseable Conponent Section
 ===================================
 */
+
+
+/* 
+===================================
+Start Navbar Section 
+===================================
+*/
+
+.header-div{
+    background-color: var(--primary-color);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 28px;
+
+}
+.logo{
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-lg);
+    color: #FFFFFF;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 16px;
+}
+.nav-links a {
+    color: #FFFFFF;
+}
+
+.nav-button{
+    width: 82px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: var(--secondary-green-color);
+}
+
+.signin-btn{
+    width: 72px;
+    height: 41px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: #FFFFFF;
+    font-size: var(--size-sm);
+}
+/* 
+===================================
+End Navbar Section
+===================================
+*/
+
 
 /*
 ===================================
