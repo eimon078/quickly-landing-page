@@ -94,6 +94,166 @@ End Reuseable Conponent Section
 ===================================
 */
 
+/*
+===================================
+Start Hero Section
+===================================
+ */
+ .hero-section{
+    background-color: #FAFAFA;
+    padding-top: 80px; 
+    padding-bottom: 130px;
+ }
+
+ .hero-divider{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .small-title{
+     font-family: "Plus Jakarta Sans 700";
+     font-size: var(--size-md);
+     color: var(--primary-color);
+     padding-bottom: 24px;
+ }
+
+ .big-title{
+     font-size: 64px;
+     font-family: "Plus Jakarta Sans 700";
+     padding-bottom: 35px;
+ }
+
+ .hero-left p{
+    font-size: 24px;
+    padding-bottom: 48px;
+ }
+
+ .hero-left-btn a{
+    color: #FFFFFF;
+ }
+ .hero-right-btn{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    /* padding-left: 10px; */
+ }
+
+ .button-div span{
+     margin-left: 20px;
+ }
+
+ /* .hero-left,
+ .hero-right{
+     width: 50%;
+ } */
+
+ .hero-left{
+    width: 60%;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+ .hero-right{
+    position: relative;
+    width: 40%;
+}
+
+ .hero-sm-cart-1,
+ .hero-sm-cart-2{
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(138, 138, 138, 0.04);
+    border-radius: 12px;
+    position: absolute;
+ }
+ .hero-sm-cart-1{
+    width: 389px;
+    height: 107px;
+    top: 6%;
+    left: 30%;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .hero-sm-cart-2{
+    width: 432px;
+    height: 193px;
+    top: 75%;
+    left: -20%;
+    padding: 24px;
+    display: flex;
+ }
+
+ .hero-sm-cart-1 div img{
+    width: 63px;
+    height: 63px;
+ }
+ .hero-sm-cart-1 div h4,
+ .hero-sm-cart-2 div h4{
+    font-family: "Plus Jakarta Sans 700";
+    font-size: var(--size-lg);
+ }
+
+ .hero-bg-img{
+     background-image: url(../images/hero/women.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 415px;
+     height: 490px;
+
+ }
+
+ .hero-tik-div{
+    width: 64px;
+    height: 64px;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hero-tik-div img{
+     width: 25px;
+     height: 20px;
+     
+ }
+
+ .left-info{
+     padding-left: 20px;
+ }
+ .left-info h4{
+     margin-bottom: 16px;
+ }
+
+.hero-mockup{
+    background-color: rgba(32, 72, 79, 0.1);
+    border-radius: 12px;
+    margin-bottom: 12px; 
+} 
+ .hero-mockup-1{
+    width: 273px;
+    height: 11px;
+ }
+ .hero-mockup-2{
+    width: 182px;
+    height: 11px;
+ }
+
+ .hero-fake-button{
+    width: 110px;
+    height: 37px;
+    background-color:var(--secondary-green-color);
+    border-radius: 8px;
+ }
+
+/*
+===================================
+End Hero Section
+===================================
+ */
+
 /* 
 ===================================
 Start companies Section 
@@ -101,7 +261,7 @@ Start companies Section
 */
 .companies{
     background-color: #FAFAFA;
-    padding-top: 41px;
+    padding-top: 80px;
 }
 .cp-heading{
     font-size: var(--size-lg);
