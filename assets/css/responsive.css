@@ -77,6 +77,10 @@
         grid-template-columns: repeat(1 , 1fr);
         
     }
+
+    .companies-logo img{
+        padding: 15px 0;
+    }
     
 }
 
@@ -130,6 +134,10 @@
 
     .product-cart{
         width: 100%;
+        padding: 15px 0;
+    }
+
+    .companies-logo img{
         padding: 15px 0;
     }
 }

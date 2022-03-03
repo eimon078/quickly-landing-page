@@ -99,6 +99,32 @@ End Reuseable Conponent Section
 Start companies Section 
 ===================================
 */
+.companies{
+    background-color: #FAFAFA;
+    padding-top: 41px;
+}
+.cp-heading{
+    font-size: var(--size-lg);
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cp-heading span{
+    font-family: "Plus Jakarta Sans 700";
+    font-weight: bold;
+}
+
+.companies-logo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.companies-logo img{
+    padding-bottom: 57px;
+}
+
 /* 
 ===================================
 End companies Section
