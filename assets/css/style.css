@@ -193,6 +193,9 @@ Start Hero Section
     border: 1px solid rgba(32, 72, 79, 0.1);
     /* padding-left: 10px; */
  }
+ .hero-right-btn a{
+    color: var(--dark-color);
+ }
 
  .button-div span{
      margin-left: 20px;
