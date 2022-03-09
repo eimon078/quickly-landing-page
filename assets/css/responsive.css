@@ -8,9 +8,9 @@
 
 
 @media (max-width:991px){
-    header{
+    /* header{
         display: none;
-    }
+    } */
     .container{
         max-width: 720px;
     }
@@ -55,15 +55,22 @@
         max-width: 540px;
     }
 
+    .header-auth{
+        display: none;
+    }
+    .header-nav-items{
+        display: none;
+    }
+
     .footer-content{
         grid-template-columns: repeat(1 , 1fr);
     }
 
-    .row{
+    .footer-row{
         grid-template-columns: repeat(2 , 1fr);
     }
 
-    .col{
+    .footer-col{
         margin-top: 15px;
     }
 
@@ -119,8 +126,13 @@
         grid-template-columns: repeat(1 , 1fr);
     }
 
-    .row{
+    .footer-row{
         grid-template-columns: repeat(1 , 1fr);
+        margin: 15px auto;
+    }
+
+    .footer-address{
+        margin: auto;
     }
 
     .info{
