@@ -55,6 +55,7 @@
         max-width: 540px;
     }
 
+    /* header section  */
     .header-auth{
         display: none;
     }
@@ -135,6 +136,8 @@
         transform: translateY(-3px) rotate(-45deg);
     }
 
+    /* footer section  */
+
     .footer-content{
         grid-template-columns: repeat(1 , 1fr);
     }
@@ -183,6 +186,12 @@
     
      .hero-right{
         width: 100%;
+    }
+
+    /* feature  */
+    .side-img{
+        padding: 5px;
+        height: 450px;
     }
     
 }

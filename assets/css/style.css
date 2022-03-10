@@ -105,6 +105,8 @@ Start Navbar Section
 header{
     background-color: var(--primary-color);
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -164,7 +166,8 @@ Start Hero Section
  */
  .hero-section{
     background-color: #FAFAFA;
-    padding-top: 80px; 
+    padding-top: 80px;
+    margin-top: 64px; 
     padding-bottom: 130px;
  }
 
@@ -329,14 +332,14 @@ Start companies Section
     background-color: #FAFAFA;
     padding-top: 80px;
 }
-.cp-heading{
+.companies-heading{
     font-size: var(--size-lg);
     color: var(--primary-color);
     text-align: center;
     margin-bottom: 45px;
 }
 
-.cp-heading span{
+.companies-heading span{
     font-family: "Plus Jakarta Sans 700";
     font-weight: bold;
 }
@@ -359,10 +362,10 @@ End companies Section
 
 /* 
 ===================================
-Start Production Section 
+Start Features Section 
 ===================================
 */
-.production{
+.features{
     background-color: #FAFAFA;
     padding-top: 110px;
     padding-bottom: 99px;
@@ -374,23 +377,23 @@ Start Production Section
     column-gap: 50px;
 }
 
-.txt{
+.features-title-content{
     font-size: var(--size-md);
     margin-bottom: 39px;
     padding-right: 30px;
 }
-.product-info h3 {
+.features-info h3 {
     margin-bottom: 12px;
 }
 
-.product-icon{
+.feature-icon{
     width: 44px;
     height: 44px;
     border-radius: 12px;
     background-color: var(--secondary-light-color);
 }
 
-.product-icon img{
+.feature-icon img{
     width: 20px;
     height: 20px;
     position: relative;
@@ -399,13 +402,13 @@ Start Production Section
     transform: translate(-50%, -50%)
 }
 
-.products{
+.all-features{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.product-cart{
+.feature-cart{
     width: calc(50%);
     padding-right: 15px;
     padding-bottom: 15px;
@@ -415,12 +418,14 @@ Start Production Section
     background-image: url(../images/product/man.png);
     background-size: contain;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 547px;
 }
 
-.side-img img{
-    height: 547px;
+/* .side-img img{
+    max-height: 547px;
     width: 100%;
-}
+} */
 
 .pg{
     margin-top: 15px;
