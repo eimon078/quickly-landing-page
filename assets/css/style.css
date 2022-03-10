@@ -104,6 +104,9 @@ Start Navbar Section
 
 header{
     background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .header-navbar{
@@ -142,6 +145,10 @@ header{
     padding: 10px 16px;
     color: #FFFFFF;
     font-size: var(--size-sm);
+}
+
+.header-navbar-toggler{
+    display: none;
 }
 /* 
 ===================================
